@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 <head>
-    <title>日志 - 我的站点</title>
+    <title>Git，工具 - 我的站点</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -11,7 +11,7 @@
 
 
     <meta name="author" content="雷舰" />
-    <meta name="keywords" content="日志" />
+    <meta name="keywords" content="Git，工具" />
 
     <!-- Open Graph tags -->
         <meta property="og:site_name" content="我的站点" />
@@ -70,12 +70,22 @@
     <div class="row">
         <div class="col-sm-9">
             <article>
-                <h2><a href="/di-yi-pian-wen-zhang.html">第一篇文章</a></h2>
-                <div class="summary"><h1>标题1</h1>
-<h2>标题2</h2>
-<p>完成第一篇上传的文章，留个纪念。
-<a href="search.html">导航</a></p>
-                    <a class="btn btn-default btn-xs" href="/di-yi-pian-wen-zhang.html">more ...</a>
+                <h2><a href="/gitchang-yong-ming-ling.html">Git常用命令</a></h2>
+                <div class="summary"><p><strong>1.获取远程库并创建本地索引名</strong></p>
+<p>git clone -o 远程仓库的本地名 远程仓库
+git clone 远程仓库 远程仓库的本地名</p>
+<p><strong>2.管理远程库的本地名称</strong></p>
+<p>git remote -v
+git remote show 远程库的本地名
+git remote add 远程库的本地名 远程库
+git remote rm 远程库的本地名
+git remote rename 原名 新名</p>
+<p><strong>3.将远程分支的更新拉到本地分支</strong></p>
+<p>git pull = git fetch + git merge/rebase
+git fetch 远程仓库本地名 远程分支名</p>
+<p><strong>4.将本地的分支推到远程分支</strong></p>
+<p>git …</p>
+                    <a class="btn btn-default btn-xs" href="/gitchang-yong-ming-ling.html">more ...</a>
                 </div>
             </article>
             <hr/>
